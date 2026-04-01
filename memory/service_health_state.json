@@ -1,0 +1,29 @@
+{
+  "last_check": "2026-04-01T12:45:01.023959",
+  "results": [
+    {
+      "name": "Vue3 Frontend",
+      "port": 5174,
+      "http_ok": true,
+      "proc_ok": false
+    },
+    {
+      "name": "FastAPI Backend",
+      "port": 8000,
+      "http_ok": true,
+      "proc_ok": false
+    },
+    {
+      "name": "Ollama",
+      "port": 11434,
+      "http_ok": true,
+      "proc_ok": true
+    },
+    {
+      "name": "Memos",
+      "port": 5230,
+      "http_ok": true,
+      "proc_ok": true
+    }
+  ]
+}

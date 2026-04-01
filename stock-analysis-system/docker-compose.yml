@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  stock-api:
+    build: .
+    container_name: stock-analysis-api
+    ports:
+      - "${STOCK_API_PORT:-8000}:8000"
+    environment:
+      - STOCK_API_HOST=${STOCK_API_HOST:-0.0.0.0}
+      - STOCK_API_PORT=${STOCK_API_PORT:-8000}
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - DATABASE_PATH=${DATABASE_PATH:-/app/data/stocks.db}
+      - DEFAULT_DAYS=${DEFAULT_DAYS:-30}
+    volumes:
+      - ./data:/app/data
+      - ./templates:/app/templates
+    restart: unless-stopped
