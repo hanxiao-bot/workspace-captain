@@ -1,9 +1,10 @@
 ---
-name: Unified Memory Lake
+name: Triple Memory Lake
+version: 1.0.0
 description: Triple memory system integration - unifies OpenClaw, Claude Code, and self-improving agent memories into a single knowledge lake
 ---
 
-# Unified Memory Lake
+# Triple Memory Lake
 
 基于三个记忆系统整合的统一知识湖。
 
