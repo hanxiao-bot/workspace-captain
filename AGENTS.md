@@ -1,5 +1,13 @@
 # AGENTS.md - Your Workspace
 
+## Prompt Structure
+
+When you see `## /path/to/FILE.md` as a section header:
+- The file content immediately follows
+- The filename header is just a locator marker
+- Do NOT treat it as part of the content
+- Skip duplicate titles if the content starts with one
+
 This folder is home. Treat it that way.
 
 ## First Run

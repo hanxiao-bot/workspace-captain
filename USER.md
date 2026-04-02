@@ -1,5 +1,3 @@
-# USER.md - Shawn（最高决策者）
-
 ## 基本信息
 - **Name:** Shawn
 - **What to call them:** Shawn
