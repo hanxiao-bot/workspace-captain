@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.sync_state.json
+memory/sources/
+memory/patterns/
