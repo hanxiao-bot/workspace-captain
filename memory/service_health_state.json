@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-04-01T12:45:01.023959",
+  "last_check": "2026-04-03T01:15:01.240542",
   "results": [
     {
       "name": "Vue3 Frontend",
@@ -17,13 +17,13 @@
       "name": "Ollama",
       "port": 11434,
       "http_ok": true,
-      "proc_ok": true
+      "proc_ok": false
     },
     {
       "name": "Memos",
       "port": 5230,
-      "http_ok": true,
-      "proc_ok": true
+      "http_ok": false,
+      "proc_ok": false
     }
   ]
 }
